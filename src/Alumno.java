@@ -5,6 +5,8 @@ public class Alumno {
 
     private String career;
 
+    private String lastName;
+
     public String getName() {
         return name;
     }
@@ -27,5 +29,13 @@ public class Alumno {
 
     public void setCareer(String career) {
         this.career = career;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
