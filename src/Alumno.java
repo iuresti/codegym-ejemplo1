@@ -7,6 +7,8 @@ public class Alumno {
 
     private String lastName;
 
+    private String matricula;
+
     public String getName() {
         return name;
     }
@@ -37,5 +39,13 @@ public class Alumno {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
     }
 }
